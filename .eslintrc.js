@@ -14,11 +14,12 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'max-len': ['warn', { code: 100 }],
-    eqeqeq: ['warn', 'smart'],
+    'eqeqeq': ['warn', 'smart'],
     'no-empty-function': 'error',
     'no-multi-spaces': 'error',
     'no-param-reassign': 'error',
     'arrow-body-style': ['error', 'as-needed'],
+    semi: ["error", "always"]
   },
   overrides: [
     {
