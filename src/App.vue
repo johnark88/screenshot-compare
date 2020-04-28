@@ -12,7 +12,9 @@
         </div>
       </nav>
     </div>
-    <router-view/>
+    <div class="main-container max-w-full">
+      <router-view/>
+    </div>
   </div>
 </template>
 

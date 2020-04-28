@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-
+  <div class="home bg-lighgreen">
+    <h2>Home view</h2>
   </div>
 </template>
 
@@ -10,5 +10,5 @@
 
 export default {
   name: 'Home'
-}
+};
 </script>
